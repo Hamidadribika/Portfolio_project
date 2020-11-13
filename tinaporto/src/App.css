@@ -1,0 +1,272 @@
+.full {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.bg-video {
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.social-holder {
+	position: fixed;
+	left: 0;
+	top: 150px;
+	opacity: 0.75;
+}
+
+.menu-holder {
+	opacity: 0.75;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.social-icon1 {
+	position: fixed;
+	left: 0;
+	top: 275px;
+	margin-left: 1.5rem;
+}
+.social-icon2 {
+	position: fixed;
+	left: 0;
+	top: 325px;
+	margin-left: 1.5rem;
+}
+.social-icon3 {
+	position: fixed;
+	left: 0;
+	top: 375px;
+	margin-left: 1.5rem;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	height: 1rem;
+	justify-content: flex-end;
+}
+
+header nav {
+	width: 170px;
+	position: relative;
+	z-index: 1;
+}
+
+.menu-position {
+	margin: 3rem auto;
+	width: 5%;
+	cursor: pointer;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 3rem;
+	opacity: 0.75;
+	background-color: #360167;
+}
+
+.page-line-holder {
+	position: absolute;
+	right: 0;
+	top: 45%;
+	opacity: 0.75;
+}
+/* TO BE REMOVED */
+.page-line1 {
+	width: 3.5rem;
+	height: 0.25rem;
+	border-radius: 50px;
+	margin: 1.75rem 0;
+	background: white;
+}
+/* TO BE REMOVED  */
+
+.page-line {
+	width: 2.5rem;
+	height: 0.25rem;
+	border-radius: 20px;
+	margin: 1.5rem 0;
+	background: white;
+}
+
+.footer-line {
+	width: 85%;
+	background: white;
+	height: 0.25rem;
+	border-radius: 50px;
+}
+
+/* All of the above are fixed */
+
+main {
+	/* width: 90%; */
+	margin: 0 auto;
+}
+
+.author {
+	width: 80%;
+	text-align: center;
+	color: white;
+	margin-left: 2rem;
+	/* margin: 0 auto; */
+}
+
+.underline {
+	margin-right: 5rem;
+	width: 49%;
+	background-color: white;
+	border-radius: 50px;
+	height: 5px;
+}
+
+.banner {
+	display: flex;
+	width: 100%;
+	margin: 5rem auto;
+}
+
+.banner-info {
+	text-align: center;
+	color: white;
+	margin-top: 2.5rem;
+	margin-left: 10vw;
+	font-size: 1.25rem;
+	line-height: 3rem;
+	width: 20%;
+}
+
+.banner-info h2 {
+	border-bottom: 1px solid white;
+	width: 80%;
+	margin: 0 auto;
+	/* padding-bottom: 2rem; */
+}
+
+.banner-btn {
+	background: #360167;
+	border: none;
+	margin-top: 2rem;
+	padding: 0.75rem 2rem;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 0px 3px 5px black;
+	outline: none;
+	cursor: pointer;
+}
+
+.laptop {
+	width: 55%;
+}
+
+/* About */
+
+.about-header {
+	display: flex;
+	width: 60%;
+	/* margin: 0 auto; */
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.about-author {
+	font-size: 1.5rem;
+}
+
+.about-quote {
+	font-size: 1.25rem;
+	color: red;
+}
+
+.about-main {
+	display: flex;
+	width: 80%;
+	margin: 5rem auto;
+}
+
+.about-title {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-size: 7rem;
+	color: white;
+}
+
+.about-passage {
+	width: 40%;
+	color: white;
+	font-size: 1.25rem;
+	line-height: 2.25rem;
+	min-width: 30%;
+}
+
+.tina {
+	width: 40%;
+	position: relative;
+	right: 5rem;
+}
+
+/* Skills */
+
+.skills-container {
+	width: 70%;
+	text-align: center;
+	margin: 5rem auto;
+	color: white;
+}
+
+[data-skill="5"] span {
+	width: 50%;
+	height: 15px;
+	padding: 5px;
+	background-color: red;
+	display: block;
+	margin: 10px;
+}
+[data-skill="3"] span {
+	width: 30%;
+	height: 15px;
+	padding: 5px;
+	background-color: red;
+	display: block;
+	margin: 10px;
+}
+[data-skill="1"] span {
+	width: 15%;
+	height: 15px;
+	padding: 5px;
+	background-color: red;
+	display: block;
+	margin: 10px;
+}
+[data-skill="7"] span {
+	width: 75%;
+	height: 15px;
+	padding: 5px;
+	background-color: red;
+	display: block;
+	margin: 10px;
+}
+[data-skill="9"] span {
+	width: 85%;
+	height: 15px;
+	padding: 5px;
+	background-color: red;
+	display: block;
+	margin: 10px;
+}
